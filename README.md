@@ -293,13 +293,7 @@ csv_cb_pl = (
 csv_cb_pl
 ```
 
-<div><style>
-.dataframe > thead > tr,
-.dataframe > tbody > tr {
-  text-align: right;
-  white-space: pre-wrap;
-}
-</style>
+<div>
 <small>shape: (7, 3)</small>
 
 | column_name | old_values | new_labels |
@@ -408,13 +402,7 @@ column. Here’s one way you could approach it:
 )
 ```
 
-<div><style>
-.dataframe > thead > tr,
-.dataframe > tbody > tr {
-  text-align: right;
-  white-space: pre-wrap;
-}
-</style>
+<div>
 <small>shape: (5_000, 14)</small>
 
 | applicant_id | email | email_preferred | school_decision | student_decision | ft_pt | gre_verbal | gre_quant | gre_analytical | applied_dual_prg | birth_date | gender | ethnicity | low_income |
@@ -454,13 +442,7 @@ method like so:
     )
 ```
 
-<div><style>
-.dataframe > thead > tr,
-.dataframe > tbody > tr {
-  text-align: right;
-  white-space: pre-wrap;
-}
-</style>
+<div>
 <small>shape: (5_000, 14)</small>
 
 | applicant_id | email | email_preferred | school_decision | student_decision | ft_pt | gre_verbal | gre_quant | gre_analytical | applied_dual_prg | birth_date | gender | ethnicity | low_income |
@@ -503,13 +485,7 @@ method:
 data_pl.with_columns(recode_expr_list)
 ```
 
-<div><style>
-.dataframe > thead > tr,
-.dataframe > tbody > tr {
-  text-align: right;
-  white-space: pre-wrap;
-}
-</style>
+<div>
 <small>shape: (5_000, 14)</small>
 
 | applicant_id | email | email_preferred | school_decision | student_decision | ft_pt | gre_verbal | gre_quant | gre_analytical | applied_dual_prg | birth_date | gender | ethnicity | low_income |
@@ -568,13 +544,7 @@ recode_expr_list = [ pl.col(col)
 data_pl.with_columns(recode_expr_list)
 ```
 
-<div><style>
-.dataframe > thead > tr,
-.dataframe > tbody > tr {
-  text-align: right;
-  white-space: pre-wrap;
-}
-</style>
+<div>
 <small>shape: (5_000, 14)</small>
 
 | applicant_id | email | email_preferred | school_decision | student_decision | ft_pt | gre_verbal | gre_quant | gre_analytical | applied_dual_prg | birth_date | gender | ethnicity | low_income |
