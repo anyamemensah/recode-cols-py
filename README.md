@@ -169,17 +169,6 @@ data_pd.replace(to_replace=nested_dict_pd)
 ```
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-&#10;    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-&#10;    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 
 |  | applicant_id | email | email_preferred | school_decision | student_decision | ft_pt | gre_verbal | gre_quant | gre_analytical | applied_dual_prg | birth_date | gender | ethnicity | low_income |
 |----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
@@ -231,17 +220,6 @@ data_pd.replace(to_replace= nested_dict_pd)
 ```
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-&#10;    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-&#10;    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 
 |  | applicant_id | email | email_preferred | school_decision | student_decision | ft_pt | gre_verbal | gre_quant | gre_analytical | applied_dual_prg | birth_date | gender | ethnicity | low_income |
 |----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
