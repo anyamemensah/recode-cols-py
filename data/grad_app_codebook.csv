@@ -1,0 +1,22 @@
+﻿column_name,column_description,old_values,new_labels
+school_decision,School decision,A,Accepted
+school_decision,School decision,W,Waitlisted
+school_decision,School decision,R,Rejected
+student_decision,Student response,A,Accepted Offer
+student_decision,Student response,D,Declined Offer
+ft_pt,Full-time or Part-time applicant,pt,Part-time
+ft_pt,Full-time or Part-time applicant,ft,Full-time
+ft_pt,Full-time or Part-time applicant,sub,Submatriculate
+applied_dual_prg,Applied to degree program ,NODUAL,No
+applied_dual_prg,Applied to degree program ,YES,Yes
+gender,Student gender identity,W,Woman
+gender,Student gender identity,M,Man
+gender,Student gender identity,NB,Non-Binary
+ethnicity,Student race/ethnicity,AN,Indigenous
+ethnicity,Student race/ethnicity,HL,Hispanic/Latino
+ethnicity,Student race/ethnicity,ME,Middle Eastern/Arab
+ethnicity,Student race/ethnicity,W,White
+ethnicity,Student race/ethnicity,B,Black /African American
+ethnicity,Student race/ethnicity,AP,Asian or Pacific Islander
+low_income,Student is low income,N,No
+low_income,Student is low income,Y,Yes
