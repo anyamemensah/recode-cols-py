@@ -160,7 +160,7 @@ nested_dict_pd
      'low_income': {'N': 'No', 'Y': 'Yes'}}
 
 To use the dictionary, set the `to_replace` argument in the replace
-method to our dictionary `nested_dic`. For those columns whose names
+method to our dictionary `nested_dict_pd`. For those columns whose names
 appear in both the dataset and as outer keys in the nested dictionary,
 the column values in the dataset have been recoded.
 
